@@ -1,0 +1,412 @@
+body{
+  margin:0px;
+  padding: 0px;
+}
+
+
+/*Navigation*/
+nav {
+    margin-top: 20px;
+}
+.li{
+  float:left;
+
+}
+
+.nav-link{
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.nav-link:hover{  
+             
+        opacity: 0.8;
+        color: gray;
+       
+    
+}
+
+.row no-gutters{
+  height: 100%;
+}
+
+.btn:hover{
+  color:white;
+
+}
+
+.jumbotron{
+    background-image: url(assets/img/yellow.jpg);
+    text-align: center;
+}
+.display-4{
+    
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+.wrapper
+{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color: black;
+    
+}
+.owl-carousel{
+    top: 40px;
+}
+
+.owl-carousel .item-video{
+    height: 300px;
+}
+
+
+
+
+.col-lg-4{
+
+    border: 1px solid black;
+    background-color: white;
+    
+
+}
+
+
+  .tab-content.panels-faq {
+    padding: 0;
+    border: 0;
+  }
+  
+  .panel.panel-help {
+    box-shadow: 0 1px 5px rgba(85, 85, 85, 0.15);
+    padding-bottom: 0;
+    border-radius: 2px;
+    overflow: hidden;
+    background-color: #fff;
+    margin: 0 0 16px;
+  }
+  .panel.panel-help a[href^="#"],
+  .panel.panel-help a[href^="#"]:hover,
+  .panel.panel-help a[href^="#"]:focus {
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .panel.panel-help .panel-heading {
+    background-color: #f6f6f6;
+    padding: 0 16px;
+    line-height: 48px;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+    color: rgba(0, 0, 0, 0.87);
+  }
+  .panel.panel-help .panel-heading h2 {
+    margin: 0;
+    padding: 14px 0 14px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0;
+    text-transform: none;
+  }
+  .panel.panel-help .panel-body {
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    border-radius: 2px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    margin-top: 0;
+  }
+  .panel.panel-help .panel-body p {
+    margin: 0 0 16px;
+  }
+  .panel.panel-help .panel-body p:last-of-type {
+    margin: 0;
+  }
+  
+.c-gridpost__card {
+  text-align: center;
+}
+
+
+/*sliding videos*/
+.item{
+  margin-left:20px;
+}
+
+
+/*  Popovers*/
+
+.modal {
+  box-sizing: border-box;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border: 1px solid black;
+  border-radius: 10px;
+  z-index: 10;
+  background-color: white;
+  width: 500px;
+  max-width: 80%;
+}
+
+.modal.active {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-header {
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.modal-header .title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.modal-header .close-button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.modal-body {
+  padding: 10px 15px;
+}
+
+#overlay {
+  position: fixed;
+  opacity: 0;
+  transition: 200ms ease-in-out;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .5);
+  pointer-events: none;
+}
+
+#overlay.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+
+
+
+
+
+/* Poper new*/
+
+.container{
+  width:100%;
+  margin: 0px auto;
+}
+
+
+#main{
+  width:100%;
+  height:100vh;
+  background: #0008;
+  position: absolute;
+  top: 0px;
+  left:0px;
+  display: none;
+
+}
+
+
+
+#pop-up{
+text-align:center;
+width:400px;
+height:300px;
+background: #03a9f4;
+box-sizing:border-box;
+padding: 20px;
+position:absolute;
+top: 50%;
+left:50%;
+transform:translate(-50%,-50%);
+
+
+}
+
+
+
+
+
+/*--------------------Footer-----------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+.content1{
+  position: relative;
+  margin: 130px auto;
+  text-align: center;
+  padding: 0 20px;
+}
+.content1 .text{
+  font-size: 3rem;
+  font-weight: 600;
+  color: white;
+}
+.content1 .p{
+  font-size: 2.1875rem;
+  font-weight: 600;
+  color: white;
+}
+footer{
+
+  bottom: 0px;
+  width: 100%;
+  background: #24282c;
+}
+.main-content{
+  display: flex;
+}
+.main-content .box{
+  flex-basis: 50%;
+  padding: 10px 20px;
+}
+.box h2{
+  font-size: 1.07rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.box .content{
+  margin: 20px 0 0 0;
+  position: relative;
+}
+.box .content:before{
+  position: absolute;
+  content: '';
+  top: -10px;
+  height: 2px;
+  width: 100%;
+  background:  #151515;
+}
+.box .content:after{
+  position: absolute;
+  content: '';
+  height: 2px;
+  width: 15%;
+  background:  #151515;
+  top: -10px;
+}
+.left .content p{
+  text-align: justify;
+}
+.left .content .social{
+  margin: 10px 0 0 0;
+}
+.left .content .social a{
+  padding: 0px;
+}
+.left .content .social a span{
+  
+  height: 40px;
+  width: 40px;
+  background: #151515;
+  line-height: 40px;
+  text-align: justify;
+  font-size: 14px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.center .content .fas{
+  font-size: 1.2375rem;
+  background:  #151515;
+  height: 45px;
+  width: 45px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 50%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.center .content .fas:hover{
+  background:  #151515;
+}
+.center .content .text{
+  font-size: 1.07rem;
+  font-weight: 500;
+  padding-left: 10px;
+}
+.center .content .phone{
+  margin: 15px 0;
+}
+.right form .text{
+  font-size: 1.07rem;
+  margin-bottom: 2px;
+  color: white;
+}
+.right form .msg{
+  margin-top: 10px;
+}
+.right form input, .right form .msgForm{
+  width: 100%;
+  font-size: 1.0625rem;
+  background: #151515;
+  padding-left: 10px;
+  border: 1px solid #222222;
+}
+
+.right form input{
+  height: 35px;
+}
+.right form .btn{
+  margin-top: 10px;
+}
+.right form .btn button{
+  height: 40px;
+  width: 100%;
+  border-radius: 5px;
+  outline: none;
+  background: rgb(2, 2, 105);
+  font-size: 1.7rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: .3s;
+  border-radius: 3px solid;
+}
+.right form .btn button:hover{
+  background: blue;
+}
+
+@media screen and (max-width: 900px) {
+  footer{
+    position: relative;
+    bottom: 0px;
+  }
+  .main-content{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .main-content .box{
+    margin: 5px 0;
+  }
+}
+
+@media (min-width:901px) and (max-width: 900px) {
+  .footer{
+    text-align: justify;
+  }
+  
+}

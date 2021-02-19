@@ -1,0 +1,11 @@
+first of all create a folder
+then go to google search 
+bootstrap datatables
+
+download all css, javascript and html files
+
+then create index.php
+
+paste html in it 
+
+then after editing go to your datbase localhost phpmyadmin select a database
